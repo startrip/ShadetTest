@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: terrainshader
+  m_Shader: {fileID: 4800000, guid: 0d256365a7c55cb4aa0bebda6e118f94, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a2f39c644b883194394b4bb3ff83ebb3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 3df90f6f8f816e640820b29d77e0248f, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _cloudtex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _color1:
+        m_Texture: {fileID: 2800000, guid: a2f39c644b883194394b4bb3ff83ebb3, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _color2:
+        m_Texture: {fileID: 2800000, guid: 0179cb83bd48ff1449d626c87e60398b, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _color3:
+        m_Texture: {fileID: 2800000, guid: 6fd8b137c6084104f9839991735903b0, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _litemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintex:
+        m_Texture: {fileID: 2800000, guid: a2f39c644b883194394b4bb3ff83ebb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _spmask:
+        m_Texture: {fileID: 2800000, guid: 3df90f6f8f816e640820b29d77e0248f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _spmask1:
+        m_Texture: {fileID: 2800000, guid: 3df90f6f8f816e640820b29d77e0248f, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _spmask2:
+        m_Texture: {fileID: 2800000, guid: ab6ff30a070f32849b95eaef9ef1dd98, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _spmask3:
+        m_Texture: {fileID: 2800000, guid: 850c1b8978afbcd4e9db576663a9b46b, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: 3.1
+    - _Speed: 0.1
+    - _alphthreshold: 0.1
+    - _cloudscale: 1
+    - _distance: 534
+    - _falloff: 1.43
+    - _fogdensity: 0.063
+    - _metallic: 0
+    - _noisescale: 145.1
+    - _oculusion: 0
+    - _randam: 1
+    - _saturate: 1.58
+    m_Colors:
+    - _fogcolor: {r: 0.53773576, g: 0.53773576, b: 0.53773576, a: 0}
+    - _oculusion: {r: 0, g: 0, b: 0, a: 0}
+    - _swing: {r: 0, g: 0, b: 0, a: 0}
